@@ -9,4 +9,4 @@ RUN apt-get remove gcc --quiet --yes
 RUN apt-get autoremove --quiet --yes
 
 # Install Clang
-RUN apt-get install --quiet --yes clang clang-format-3.5 clang-modernize-3.5 libc++-dev
+RUN apt-get install --quiet --yes clang clang-format clang-tidy libc++-dev
