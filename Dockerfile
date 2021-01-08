@@ -1,6 +1,6 @@
 # Docker image for C++ development using Clang, based on base C++ image for Debian stable.
 
-FROM fredrikandersson/debian-stable-cpp-image-base:stable-2020-07-20
+FROM fredrikandersson/debian-stable-cpp-image-base:stable-2020-12-09
 
 RUN apt-get update --quiet --yes
 
